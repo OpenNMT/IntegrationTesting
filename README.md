@@ -1,3 +1,10 @@
+Dashboard
+
+https://plot.ly/dashboard/srush:3/view
+
+Logs in logs/
+
+
 Integration Testing using Docker.
 
 1. Provision an EC Ubuntu g2 box and run the `build.sh` script.
