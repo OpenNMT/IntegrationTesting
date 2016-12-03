@@ -1,0 +1,552 @@
+Building source vocabulary...	
+Created dictionary of size 50004 (pruned from 272353)	
+	
+Building target vocabulary...	
+Created dictionary of size 50004 (pruned from 151757)	
+	
+Preparing training data...	
+... 100000 sentences prepared	
+... 200000 sentences prepared	
+... shuffling sentences	
+... sorting sentences by size	
+Prepared 200000 sentences (0 ignored due to length == 0 or > 50)	
+	
+Preparing validation data...	
+... shuffling sentences	
+... sorting sentences by size	
+Prepared 5718 sentences (285 ignored due to length == 0 or > 50)	
+	
+Saving source vocabulary to 'data/demo.src.dict'...	
+Saving target vocabulary to 'data/demo.targ.dict'...	
+Saving data to 'data/demo-train.t7'...	
+Loading data from data/demo-train.t7...	
+ * vocabulary size: source = 50004; target = 50004	
+ * additional features: source = 0; target = 0	
+ * maximum sequence length: source = 50; target = 51	
+ * number of training sentences: 200000	
+ * maximum batch size: 64	
+Building model...	
+Initializing parameters...	
+ * number of parameters: 84814004	
+Preparing memory optimization...	
+ * sharing 63% of output/gradInput tensors memory between clones	
+	
+Epoch 1 ; Batch 50/3149 ; LR 1.0000 ; Throughput 1344/478/865 total/src/targ tokens/sec ; PPL 255705.76 ; Free mem 2095316992	
+Epoch 1 ; Batch 100/3149 ; LR 1.0000 ; Throughput 1813/631/1181 total/src/targ tokens/sec ; PPL 101307.63 ; Free mem 2094137344	
+Epoch 1 ; Batch 150/3149 ; LR 1.0000 ; Throughput 2147/755/1392 total/src/targ tokens/sec ; PPL 35063.17 ; Free mem 2092040192	
+Epoch 1 ; Batch 200/3149 ; LR 1.0000 ; Throughput 2356/833/1522 total/src/targ tokens/sec ; PPL 17575.19 ; Free mem 2088894464	
+Epoch 1 ; Batch 250/3149 ; LR 1.0000 ; Throughput 2475/872/1603 total/src/targ tokens/sec ; PPL 11200.80 ; Free mem 2090991616	
+Epoch 1 ; Batch 300/3149 ; LR 1.0000 ; Throughput 2580/912/1668 total/src/targ tokens/sec ; PPL 8042.68 ; Free mem 2090991616	
+Epoch 1 ; Batch 350/3149 ; LR 1.0000 ; Throughput 2652/935/1716 total/src/targ tokens/sec ; PPL 6193.62 ; Free mem 2088894464	
+Epoch 1 ; Batch 400/3149 ; LR 1.0000 ; Throughput 2700/950/1750 total/src/targ tokens/sec ; PPL 5017.05 ; Free mem 2088894464	
+Epoch 1 ; Batch 450/3149 ; LR 1.0000 ; Throughput 2751/970/1780 total/src/targ tokens/sec ; PPL 4127.65 ; Free mem 2090991616	
+Epoch 1 ; Batch 500/3149 ; LR 1.0000 ; Throughput 2787/982/1804 total/src/targ tokens/sec ; PPL 3513.90 ; Free mem 2088894464	
+Epoch 1 ; Batch 550/3149 ; LR 1.0000 ; Throughput 2817/994/1823 total/src/targ tokens/sec ; PPL 3057.57 ; Free mem 2087845888	
+Epoch 1 ; Batch 600/3149 ; LR 1.0000 ; Throughput 2844/1004/1839 total/src/targ tokens/sec ; PPL 2697.25 ; Free mem 2090991616	
+Epoch 1 ; Batch 650/3149 ; LR 1.0000 ; Throughput 2866/1014/1851 total/src/targ tokens/sec ; PPL 2407.01 ; Free mem 2086928384	
+Epoch 1 ; Batch 700/3149 ; LR 1.0000 ; Throughput 2894/1029/1864 total/src/targ tokens/sec ; PPL 2151.31 ; Free mem 2082734080	
+Epoch 1 ; Batch 750/3149 ; LR 1.0000 ; Throughput 2910/1032/1877 total/src/targ tokens/sec ; PPL 1965.91 ; Free mem 2080636928	
+Epoch 1 ; Batch 800/3149 ; LR 1.0000 ; Throughput 2922/1036/1886 total/src/targ tokens/sec ; PPL 1808.46 ; Free mem 2083782656	
+Epoch 1 ; Batch 850/3149 ; LR 1.0000 ; Throughput 2935/1039/1895 total/src/targ tokens/sec ; PPL 1674.15 ; Free mem 2083782656	
+Epoch 1 ; Batch 900/3149 ; LR 1.0000 ; Throughput 2941/1039/1901 total/src/targ tokens/sec ; PPL 1565.99 ; Free mem 2081685504	
+Epoch 1 ; Batch 950/3149 ; LR 1.0000 ; Throughput 2954/1046/1908 total/src/targ tokens/sec ; PPL 1454.82 ; Free mem 2083782656	
+Epoch 1 ; Batch 1000/3149 ; LR 1.0000 ; Throughput 2963/1048/1915 total/src/targ tokens/sec ; PPL 1363.45 ; Free mem 2082734080	
+Epoch 1 ; Batch 1050/3149 ; LR 1.0000 ; Throughput 2973/1054/1919 total/src/targ tokens/sec ; PPL 1279.03 ; Free mem 2078670848	
+Epoch 1 ; Batch 1100/3149 ; LR 1.0000 ; Throughput 2982/1057/1924 total/src/targ tokens/sec ; PPL 1211.59 ; Free mem 2075525120	
+Epoch 1 ; Batch 1150/3149 ; LR 1.0000 ; Throughput 2987/1056/1931 total/src/targ tokens/sec ; PPL 1152.07 ; Free mem 2074476544	
+Epoch 1 ; Batch 1200/3149 ; LR 1.0000 ; Throughput 2994/1059/1934 total/src/targ tokens/sec ; PPL 1095.82 ; Free mem 2075525120	
+Epoch 1 ; Batch 1250/3149 ; LR 1.0000 ; Throughput 3000/1061/1939 total/src/targ tokens/sec ; PPL 1044.90 ; Free mem 2075525120	
+Epoch 1 ; Batch 1300/3149 ; LR 1.0000 ; Throughput 3006/1062/1943 total/src/targ tokens/sec ; PPL 1000.03 ; Free mem 2073427968	
+Epoch 1 ; Batch 1350/3149 ; LR 1.0000 ; Throughput 3010/1063/1947 total/src/targ tokens/sec ; PPL 957.48 ; Free mem 2075525120	
+Epoch 1 ; Batch 1400/3149 ; LR 1.0000 ; Throughput 3016/1065/1951 total/src/targ tokens/sec ; PPL 919.12 ; Free mem 2075525120	
+Epoch 1 ; Batch 1450/3149 ; LR 1.0000 ; Throughput 3024/1069/1954 total/src/targ tokens/sec ; PPL 881.80 ; Free mem 2073427968	
+Epoch 1 ; Batch 1500/3149 ; LR 1.0000 ; Throughput 3030/1073/1957 total/src/targ tokens/sec ; PPL 848.67 ; Free mem 2075525120	
+Epoch 1 ; Batch 1550/3149 ; LR 1.0000 ; Throughput 3036/1075/1960 total/src/targ tokens/sec ; PPL 818.33 ; Free mem 2075525120	
+Epoch 1 ; Batch 1600/3149 ; LR 1.0000 ; Throughput 3040/1076/1964 total/src/targ tokens/sec ; PPL 790.73 ; Free mem 2073427968	
+Epoch 1 ; Batch 1650/3149 ; LR 1.0000 ; Throughput 3041/1075/1966 total/src/targ tokens/sec ; PPL 766.87 ; Free mem 2076573696	
+Epoch 1 ; Batch 1700/3149 ; LR 1.0000 ; Throughput 3045/1075/1970 total/src/targ tokens/sec ; PPL 743.37 ; Free mem 2076573696	
+Epoch 1 ; Batch 1750/3149 ; LR 1.0000 ; Throughput 3047/1075/1972 total/src/targ tokens/sec ; PPL 722.11 ; Free mem 2074476544	
+Epoch 1 ; Batch 1800/3149 ; LR 1.0000 ; Throughput 3051/1077/1973 total/src/targ tokens/sec ; PPL 700.34 ; Free mem 2074476544	
+Epoch 1 ; Batch 1850/3149 ; LR 1.0000 ; Throughput 3055/1079/1976 total/src/targ tokens/sec ; PPL 679.72 ; Free mem 2076573696	
+Epoch 1 ; Batch 1900/3149 ; LR 1.0000 ; Throughput 3057/1081/1976 total/src/targ tokens/sec ; PPL 660.78 ; Free mem 2074476544	
+Epoch 1 ; Batch 1950/3149 ; LR 1.0000 ; Throughput 3061/1082/1978 total/src/targ tokens/sec ; PPL 643.58 ; Free mem 2073427968	
+Epoch 1 ; Batch 2000/3149 ; LR 1.0000 ; Throughput 3064/1084/1980 total/src/targ tokens/sec ; PPL 626.55 ; Free mem 2075525120	
+Epoch 1 ; Batch 2050/3149 ; LR 1.0000 ; Throughput 3066/1084/1981 total/src/targ tokens/sec ; PPL 610.28 ; Free mem 2075525120	
+Epoch 1 ; Batch 2100/3149 ; LR 1.0000 ; Throughput 3069/1085/1983 total/src/targ tokens/sec ; PPL 594.98 ; Free mem 2073427968	
+Epoch 1 ; Batch 2150/3149 ; LR 1.0000 ; Throughput 3073/1088/1985 total/src/targ tokens/sec ; PPL 579.05 ; Free mem 2074476544	
+Epoch 1 ; Batch 2200/3149 ; LR 1.0000 ; Throughput 3077/1090/1987 total/src/targ tokens/sec ; PPL 565.00 ; Free mem 2074476544	
+Epoch 1 ; Batch 2250/3149 ; LR 1.0000 ; Throughput 3079/1090/1988 total/src/targ tokens/sec ; PPL 551.89 ; Free mem 2073427968	
+Epoch 1 ; Batch 2300/3149 ; LR 1.0000 ; Throughput 3079/1092/1987 total/src/targ tokens/sec ; PPL 539.29 ; Free mem 2076573696	
+Epoch 1 ; Batch 2350/3149 ; LR 1.0000 ; Throughput 3079/1091/1988 total/src/targ tokens/sec ; PPL 528.24 ; Free mem 2076573696	
+Epoch 1 ; Batch 2400/3149 ; LR 1.0000 ; Throughput 3081/1091/1989 total/src/targ tokens/sec ; PPL 517.17 ; Free mem 2074476544	
+Epoch 1 ; Batch 2450/3149 ; LR 1.0000 ; Throughput 3083/1092/1990 total/src/targ tokens/sec ; PPL 505.90 ; Free mem 2077622272	
+Epoch 1 ; Batch 2500/3149 ; LR 1.0000 ; Throughput 3084/1092/1991 total/src/targ tokens/sec ; PPL 495.54 ; Free mem 2076573696	
+Epoch 1 ; Batch 2550/3149 ; LR 1.0000 ; Throughput 3085/1092/1993 total/src/targ tokens/sec ; PPL 485.38 ; Free mem 2074476544	
+Epoch 1 ; Batch 2600/3149 ; LR 1.0000 ; Throughput 3086/1092/1993 total/src/targ tokens/sec ; PPL 475.57 ; Free mem 2076573696	
+Epoch 1 ; Batch 2650/3149 ; LR 1.0000 ; Throughput 3088/1092/1995 total/src/targ tokens/sec ; PPL 466.54 ; Free mem 2076573696	
+Epoch 1 ; Batch 2700/3149 ; LR 1.0000 ; Throughput 3090/1093/1996 total/src/targ tokens/sec ; PPL 457.47 ; Free mem 2074476544	
+Epoch 1 ; Batch 2750/3149 ; LR 1.0000 ; Throughput 3091/1093/1998 total/src/targ tokens/sec ; PPL 449.38 ; Free mem 2073427968	
+Epoch 1 ; Batch 2800/3149 ; LR 1.0000 ; Throughput 3091/1093/1998 total/src/targ tokens/sec ; PPL 441.30 ; Free mem 2076573696	
+Epoch 1 ; Batch 2850/3149 ; LR 1.0000 ; Throughput 3093/1094/1999 total/src/targ tokens/sec ; PPL 432.67 ; Free mem 2075525120	
+Epoch 1 ; Batch 2900/3149 ; LR 1.0000 ; Throughput 3096/1095/2000 total/src/targ tokens/sec ; PPL 423.76 ; Free mem 2073427968	
+Epoch 1 ; Batch 2950/3149 ; LR 1.0000 ; Throughput 3098/1097/2001 total/src/targ tokens/sec ; PPL 415.42 ; Free mem 2075525120	
+Epoch 1 ; Batch 3000/3149 ; LR 1.0000 ; Throughput 3100/1098/2002 total/src/targ tokens/sec ; PPL 407.54 ; Free mem 2075525120	
+Epoch 1 ; Batch 3050/3149 ; LR 1.0000 ; Throughput 3101/1098/2002 total/src/targ tokens/sec ; PPL 400.07 ; Free mem 2073427968	
+Epoch 1 ; Batch 3100/3149 ; LR 1.0000 ; Throughput 3102/1099/2003 total/src/targ tokens/sec ; PPL 392.57 ; Free mem 2078670848	
+Validation PPL: 152.233789728	
+Saving checkpoint to demo-model_epoch1_152.23.t7...	
+	
+Epoch 2 ; Batch 50/3149 ; LR 1.0000 ; Throughput 3142/1091/2050 total/src/targ tokens/sec ; PPL 115.97 ; Free mem 2077622272	
+Epoch 2 ; Batch 100/3149 ; LR 1.0000 ; Throughput 3141/1093/2047 total/src/targ tokens/sec ; PPL 113.44 ; Free mem 2076573696	
+Epoch 2 ; Batch 150/3149 ; LR 1.0000 ; Throughput 3154/1103/2051 total/src/targ tokens/sec ; PPL 112.34 ; Free mem 2076573696	
+Epoch 2 ; Batch 200/3149 ; LR 1.0000 ; Throughput 3158/1102/2056 total/src/targ tokens/sec ; PPL 111.20 ; Free mem 2076573696	
+Epoch 2 ; Batch 250/3149 ; LR 1.0000 ; Throughput 3174/1118/2055 total/src/targ tokens/sec ; PPL 109.91 ; Free mem 2076573696	
+Epoch 2 ; Batch 300/3149 ; LR 1.0000 ; Throughput 3181/1127/2053 total/src/targ tokens/sec ; PPL 109.42 ; Free mem 2076573696	
+Epoch 2 ; Batch 350/3149 ; LR 1.0000 ; Throughput 3178/1127/2051 total/src/targ tokens/sec ; PPL 108.33 ; Free mem 2076573696	
+Epoch 2 ; Batch 400/3149 ; LR 1.0000 ; Throughput 3180/1127/2053 total/src/targ tokens/sec ; PPL 107.68 ; Free mem 2076573696	
+Epoch 2 ; Batch 450/3149 ; LR 1.0000 ; Throughput 3180/1126/2054 total/src/targ tokens/sec ; PPL 106.72 ; Free mem 2076573696	
+Epoch 2 ; Batch 500/3149 ; LR 1.0000 ; Throughput 3171/1119/2052 total/src/targ tokens/sec ; PPL 105.51 ; Free mem 2076573696	
+Epoch 2 ; Batch 550/3149 ; LR 1.0000 ; Throughput 3177/1126/2050 total/src/targ tokens/sec ; PPL 104.70 ; Free mem 2076573696	
+Epoch 2 ; Batch 600/3149 ; LR 1.0000 ; Throughput 3173/1123/2050 total/src/targ tokens/sec ; PPL 103.49 ; Free mem 2076573696	
+Epoch 2 ; Batch 650/3149 ; LR 1.0000 ; Throughput 3172/1121/2051 total/src/targ tokens/sec ; PPL 102.22 ; Free mem 2076573696	
+Epoch 2 ; Batch 700/3149 ; LR 1.0000 ; Throughput 3171/1118/2052 total/src/targ tokens/sec ; PPL 101.17 ; Free mem 2076573696	
+Epoch 2 ; Batch 750/3149 ; LR 1.0000 ; Throughput 3173/1121/2051 total/src/targ tokens/sec ; PPL 100.53 ; Free mem 2076573696	
+Epoch 2 ; Batch 800/3149 ; LR 1.0000 ; Throughput 3178/1127/2051 total/src/targ tokens/sec ; PPL 99.64 ; Free mem 2076573696	
+Epoch 2 ; Batch 850/3149 ; LR 1.0000 ; Throughput 3179/1129/2050 total/src/targ tokens/sec ; PPL 98.67 ; Free mem 2076573696	
+Epoch 2 ; Batch 900/3149 ; LR 1.0000 ; Throughput 3178/1127/2051 total/src/targ tokens/sec ; PPL 97.96 ; Free mem 2076573696	
+Epoch 2 ; Batch 950/3149 ; LR 1.0000 ; Throughput 3177/1128/2049 total/src/targ tokens/sec ; PPL 97.17 ; Free mem 2077622272	
+Epoch 2 ; Batch 1000/3149 ; LR 1.0000 ; Throughput 3178/1129/2049 total/src/targ tokens/sec ; PPL 96.27 ; Free mem 2077622272	
+Epoch 2 ; Batch 1050/3149 ; LR 1.0000 ; Throughput 3176/1127/2049 total/src/targ tokens/sec ; PPL 95.54 ; Free mem 2077622272	
+Epoch 2 ; Batch 1100/3149 ; LR 1.0000 ; Throughput 3178/1129/2049 total/src/targ tokens/sec ; PPL 94.75 ; Free mem 2077622272	
+Epoch 2 ; Batch 1150/3149 ; LR 1.0000 ; Throughput 3181/1131/2049 total/src/targ tokens/sec ; PPL 93.74 ; Free mem 2077622272	
+Epoch 2 ; Batch 1200/3149 ; LR 1.0000 ; Throughput 3183/1134/2049 total/src/targ tokens/sec ; PPL 92.90 ; Free mem 2077622272	
+Epoch 2 ; Batch 1250/3149 ; LR 1.0000 ; Throughput 3184/1134/2049 total/src/targ tokens/sec ; PPL 92.20 ; Free mem 2077622272	
+Epoch 2 ; Batch 1300/3149 ; LR 1.0000 ; Throughput 3183/1134/2049 total/src/targ tokens/sec ; PPL 91.37 ; Free mem 2077622272	
+Epoch 2 ; Batch 1350/3149 ; LR 1.0000 ; Throughput 3186/1136/2049 total/src/targ tokens/sec ; PPL 90.68 ; Free mem 2077622272	
+Epoch 2 ; Batch 1400/3149 ; LR 1.0000 ; Throughput 3183/1133/2049 total/src/targ tokens/sec ; PPL 90.06 ; Free mem 2077622272	
+Epoch 2 ; Batch 1450/3149 ; LR 1.0000 ; Throughput 3182/1132/2049 total/src/targ tokens/sec ; PPL 89.44 ; Free mem 2077622272	
+Epoch 2 ; Batch 1500/3149 ; LR 1.0000 ; Throughput 3182/1133/2048 total/src/targ tokens/sec ; PPL 88.74 ; Free mem 2077622272	
+Epoch 2 ; Batch 1550/3149 ; LR 1.0000 ; Throughput 3181/1132/2048 total/src/targ tokens/sec ; PPL 88.12 ; Free mem 2077622272	
+Epoch 2 ; Batch 1600/3149 ; LR 1.0000 ; Throughput 3179/1131/2047 total/src/targ tokens/sec ; PPL 87.39 ; Free mem 2077622272	
+Epoch 2 ; Batch 1650/3149 ; LR 1.0000 ; Throughput 3179/1132/2047 total/src/targ tokens/sec ; PPL 86.61 ; Free mem 2077622272	
+Epoch 2 ; Batch 1700/3149 ; LR 1.0000 ; Throughput 3177/1131/2046 total/src/targ tokens/sec ; PPL 85.96 ; Free mem 2077622272	
+Epoch 2 ; Batch 1750/3149 ; LR 1.0000 ; Throughput 3176/1130/2046 total/src/targ tokens/sec ; PPL 85.30 ; Free mem 2077622272	
+Epoch 2 ; Batch 1800/3149 ; LR 1.0000 ; Throughput 3175/1129/2046 total/src/targ tokens/sec ; PPL 84.73 ; Free mem 2077622272	
+Epoch 2 ; Batch 1850/3149 ; LR 1.0000 ; Throughput 3176/1129/2047 total/src/targ tokens/sec ; PPL 84.11 ; Free mem 2077622272	
+Epoch 2 ; Batch 1900/3149 ; LR 1.0000 ; Throughput 3175/1128/2047 total/src/targ tokens/sec ; PPL 83.57 ; Free mem 2077622272	
+Epoch 2 ; Batch 1950/3149 ; LR 1.0000 ; Throughput 3175/1128/2046 total/src/targ tokens/sec ; PPL 83.04 ; Free mem 2077622272	
+Epoch 2 ; Batch 2000/3149 ; LR 1.0000 ; Throughput 3174/1128/2046 total/src/targ tokens/sec ; PPL 82.44 ; Free mem 2077622272	
+Epoch 2 ; Batch 2050/3149 ; LR 1.0000 ; Throughput 3174/1128/2046 total/src/targ tokens/sec ; PPL 81.91 ; Free mem 2077622272	
+Epoch 2 ; Batch 2100/3149 ; LR 1.0000 ; Throughput 3175/1128/2046 total/src/targ tokens/sec ; PPL 81.43 ; Free mem 2077622272	
+Epoch 2 ; Batch 2150/3149 ; LR 1.0000 ; Throughput 3174/1127/2046 total/src/targ tokens/sec ; PPL 80.90 ; Free mem 2077622272	
+Epoch 2 ; Batch 2200/3149 ; LR 1.0000 ; Throughput 3173/1126/2047 total/src/targ tokens/sec ; PPL 80.45 ; Free mem 2077622272	
+Epoch 2 ; Batch 2250/3149 ; LR 1.0000 ; Throughput 3174/1126/2047 total/src/targ tokens/sec ; PPL 79.92 ; Free mem 2077622272	
+Epoch 2 ; Batch 2300/3149 ; LR 1.0000 ; Throughput 3174/1125/2048 total/src/targ tokens/sec ; PPL 79.40 ; Free mem 2077622272	
+Epoch 2 ; Batch 2350/3149 ; LR 1.0000 ; Throughput 3174/1126/2047 total/src/targ tokens/sec ; PPL 78.81 ; Free mem 2077622272	
+Epoch 2 ; Batch 2400/3149 ; LR 1.0000 ; Throughput 3174/1126/2048 total/src/targ tokens/sec ; PPL 78.29 ; Free mem 2077622272	
+Epoch 2 ; Batch 2450/3149 ; LR 1.0000 ; Throughput 3175/1126/2048 total/src/targ tokens/sec ; PPL 77.85 ; Free mem 2077622272	
+Epoch 2 ; Batch 2500/3149 ; LR 1.0000 ; Throughput 3175/1126/2048 total/src/targ tokens/sec ; PPL 77.40 ; Free mem 2077622272	
+Epoch 2 ; Batch 2550/3149 ; LR 1.0000 ; Throughput 3175/1126/2048 total/src/targ tokens/sec ; PPL 76.94 ; Free mem 2077622272	
+Epoch 2 ; Batch 2600/3149 ; LR 1.0000 ; Throughput 3176/1127/2048 total/src/targ tokens/sec ; PPL 76.49 ; Free mem 2077622272	
+Epoch 2 ; Batch 2650/3149 ; LR 1.0000 ; Throughput 3174/1126/2048 total/src/targ tokens/sec ; PPL 76.04 ; Free mem 2077622272	
+Epoch 2 ; Batch 2700/3149 ; LR 1.0000 ; Throughput 3174/1126/2048 total/src/targ tokens/sec ; PPL 75.63 ; Free mem 2077622272	
+Epoch 2 ; Batch 2750/3149 ; LR 1.0000 ; Throughput 3173/1124/2048 total/src/targ tokens/sec ; PPL 75.25 ; Free mem 2077622272	
+Epoch 2 ; Batch 2800/3149 ; LR 1.0000 ; Throughput 3173/1124/2049 total/src/targ tokens/sec ; PPL 74.89 ; Free mem 2077622272	
+Epoch 2 ; Batch 2850/3149 ; LR 1.0000 ; Throughput 3172/1123/2048 total/src/targ tokens/sec ; PPL 74.52 ; Free mem 2077622272	
+Epoch 2 ; Batch 2900/3149 ; LR 1.0000 ; Throughput 3173/1124/2049 total/src/targ tokens/sec ; PPL 74.16 ; Free mem 2077622272	
+Epoch 2 ; Batch 2950/3149 ; LR 1.0000 ; Throughput 3172/1124/2048 total/src/targ tokens/sec ; PPL 73.80 ; Free mem 2077622272	
+Epoch 2 ; Batch 3000/3149 ; LR 1.0000 ; Throughput 3172/1124/2048 total/src/targ tokens/sec ; PPL 73.44 ; Free mem 2077622272	
+Epoch 2 ; Batch 3050/3149 ; LR 1.0000 ; Throughput 3172/1123/2048 total/src/targ tokens/sec ; PPL 73.03 ; Free mem 2077622272	
+Epoch 2 ; Batch 3100/3149 ; LR 1.0000 ; Throughput 3172/1123/2048 total/src/targ tokens/sec ; PPL 72.64 ; Free mem 2077622272	
+Validation PPL: 62.882393204331	
+Saving checkpoint to demo-model_epoch2_62.88.t7...	
+	
+Epoch 3 ; Batch 50/3149 ; LR 1.0000 ; Throughput 3172/1147/2024 total/src/targ tokens/sec ; PPL 45.59 ; Free mem 2077622272	
+Epoch 3 ; Batch 100/3149 ; LR 1.0000 ; Throughput 3193/1149/2044 total/src/targ tokens/sec ; PPL 46.62 ; Free mem 2077622272	
+Epoch 3 ; Batch 150/3149 ; LR 1.0000 ; Throughput 3170/1133/2036 total/src/targ tokens/sec ; PPL 46.36 ; Free mem 2077622272	
+Epoch 3 ; Batch 200/3149 ; LR 1.0000 ; Throughput 3172/1131/2040 total/src/targ tokens/sec ; PPL 45.27 ; Free mem 2077622272	
+Epoch 3 ; Batch 250/3149 ; LR 1.0000 ; Throughput 3160/1111/2049 total/src/targ tokens/sec ; PPL 45.00 ; Free mem 2077622272	
+Epoch 3 ; Batch 300/3149 ; LR 1.0000 ; Throughput 3153/1107/2046 total/src/targ tokens/sec ; PPL 45.09 ; Free mem 2077622272	
+Epoch 3 ; Batch 350/3149 ; LR 1.0000 ; Throughput 3158/1110/2047 total/src/targ tokens/sec ; PPL 45.10 ; Free mem 2077622272	
+Epoch 3 ; Batch 400/3149 ; LR 1.0000 ; Throughput 3167/1117/2049 total/src/targ tokens/sec ; PPL 45.23 ; Free mem 2077622272	
+Epoch 3 ; Batch 450/3149 ; LR 1.0000 ; Throughput 3166/1117/2049 total/src/targ tokens/sec ; PPL 45.32 ; Free mem 2077622272	
+Epoch 3 ; Batch 500/3149 ; LR 1.0000 ; Throughput 3170/1120/2049 total/src/targ tokens/sec ; PPL 45.28 ; Free mem 2077622272	
+Epoch 3 ; Batch 550/3149 ; LR 1.0000 ; Throughput 3172/1122/2050 total/src/targ tokens/sec ; PPL 45.14 ; Free mem 2077622272	
+Epoch 3 ; Batch 600/3149 ; LR 1.0000 ; Throughput 3160/1115/2044 total/src/targ tokens/sec ; PPL 44.98 ; Free mem 2077622272	
+Epoch 3 ; Batch 650/3149 ; LR 1.0000 ; Throughput 3163/1118/2045 total/src/targ tokens/sec ; PPL 45.05 ; Free mem 2077622272	
+Epoch 3 ; Batch 700/3149 ; LR 1.0000 ; Throughput 3166/1119/2046 total/src/targ tokens/sec ; PPL 45.08 ; Free mem 2077622272	
+Epoch 3 ; Batch 750/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 45.08 ; Free mem 2077622272	
+Epoch 3 ; Batch 800/3149 ; LR 1.0000 ; Throughput 3167/1122/2045 total/src/targ tokens/sec ; PPL 44.90 ; Free mem 2077622272	
+Epoch 3 ; Batch 850/3149 ; LR 1.0000 ; Throughput 3168/1122/2045 total/src/targ tokens/sec ; PPL 44.70 ; Free mem 2077622272	
+Epoch 3 ; Batch 900/3149 ; LR 1.0000 ; Throughput 3170/1123/2046 total/src/targ tokens/sec ; PPL 44.63 ; Free mem 2077622272	
+Epoch 3 ; Batch 950/3149 ; LR 1.0000 ; Throughput 3171/1126/2044 total/src/targ tokens/sec ; PPL 44.50 ; Free mem 2078670848	
+Epoch 3 ; Batch 1000/3149 ; LR 1.0000 ; Throughput 3169/1125/2043 total/src/targ tokens/sec ; PPL 44.40 ; Free mem 2077622272	
+Epoch 3 ; Batch 1050/3149 ; LR 1.0000 ; Throughput 3167/1124/2043 total/src/targ tokens/sec ; PPL 44.30 ; Free mem 2077622272	
+Epoch 3 ; Batch 1100/3149 ; LR 1.0000 ; Throughput 3168/1125/2043 total/src/targ tokens/sec ; PPL 44.25 ; Free mem 2078670848	
+Epoch 3 ; Batch 1150/3149 ; LR 1.0000 ; Throughput 3166/1123/2042 total/src/targ tokens/sec ; PPL 44.20 ; Free mem 2077622272	
+Epoch 3 ; Batch 1200/3149 ; LR 1.0000 ; Throughput 3166/1123/2042 total/src/targ tokens/sec ; PPL 44.08 ; Free mem 2077622272	
+Epoch 3 ; Batch 1250/3149 ; LR 1.0000 ; Throughput 3165/1124/2041 total/src/targ tokens/sec ; PPL 44.01 ; Free mem 2077622272	
+Epoch 3 ; Batch 1300/3149 ; LR 1.0000 ; Throughput 3166/1124/2042 total/src/targ tokens/sec ; PPL 43.98 ; Free mem 2077622272	
+Epoch 3 ; Batch 1350/3149 ; LR 1.0000 ; Throughput 3167/1124/2043 total/src/targ tokens/sec ; PPL 43.89 ; Free mem 2077622272	
+Epoch 3 ; Batch 1400/3149 ; LR 1.0000 ; Throughput 3168/1124/2043 total/src/targ tokens/sec ; PPL 43.85 ; Free mem 2077622272	
+Epoch 3 ; Batch 1450/3149 ; LR 1.0000 ; Throughput 3170/1126/2043 total/src/targ tokens/sec ; PPL 43.79 ; Free mem 2077622272	
+Epoch 3 ; Batch 1500/3149 ; LR 1.0000 ; Throughput 3171/1127/2044 total/src/targ tokens/sec ; PPL 43.69 ; Free mem 2077622272	
+Epoch 3 ; Batch 1550/3149 ; LR 1.0000 ; Throughput 3172/1128/2044 total/src/targ tokens/sec ; PPL 43.61 ; Free mem 2077622272	
+Epoch 3 ; Batch 1600/3149 ; LR 1.0000 ; Throughput 3171/1127/2043 total/src/targ tokens/sec ; PPL 43.47 ; Free mem 2077622272	
+Epoch 3 ; Batch 1650/3149 ; LR 1.0000 ; Throughput 3172/1127/2044 total/src/targ tokens/sec ; PPL 43.42 ; Free mem 2077622272	
+Epoch 3 ; Batch 1700/3149 ; LR 1.0000 ; Throughput 3173/1128/2044 total/src/targ tokens/sec ; PPL 43.30 ; Free mem 2077622272	
+Epoch 3 ; Batch 1750/3149 ; LR 1.0000 ; Throughput 3173/1128/2045 total/src/targ tokens/sec ; PPL 43.21 ; Free mem 2077622272	
+Epoch 3 ; Batch 1800/3149 ; LR 1.0000 ; Throughput 3172/1126/2046 total/src/targ tokens/sec ; PPL 43.13 ; Free mem 2077622272	
+Epoch 3 ; Batch 1850/3149 ; LR 1.0000 ; Throughput 3170/1124/2046 total/src/targ tokens/sec ; PPL 43.02 ; Free mem 2077622272	
+Epoch 3 ; Batch 1900/3149 ; LR 1.0000 ; Throughput 3172/1126/2045 total/src/targ tokens/sec ; PPL 42.93 ; Free mem 2077622272	
+Epoch 3 ; Batch 1950/3149 ; LR 1.0000 ; Throughput 3172/1126/2046 total/src/targ tokens/sec ; PPL 42.87 ; Free mem 2077622272	
+Epoch 3 ; Batch 2000/3149 ; LR 1.0000 ; Throughput 3172/1126/2045 total/src/targ tokens/sec ; PPL 42.77 ; Free mem 2077622272	
+Epoch 3 ; Batch 2050/3149 ; LR 1.0000 ; Throughput 3172/1126/2046 total/src/targ tokens/sec ; PPL 42.66 ; Free mem 2077622272	
+Epoch 3 ; Batch 2100/3149 ; LR 1.0000 ; Throughput 3171/1125/2045 total/src/targ tokens/sec ; PPL 42.62 ; Free mem 2077622272	
+Epoch 3 ; Batch 2150/3149 ; LR 1.0000 ; Throughput 3172/1126/2046 total/src/targ tokens/sec ; PPL 42.49 ; Free mem 2077622272	
+Epoch 3 ; Batch 2200/3149 ; LR 1.0000 ; Throughput 3172/1125/2047 total/src/targ tokens/sec ; PPL 42.44 ; Free mem 2077622272	
+Epoch 3 ; Batch 2250/3149 ; LR 1.0000 ; Throughput 3171/1125/2046 total/src/targ tokens/sec ; PPL 42.38 ; Free mem 2077622272	
+Epoch 3 ; Batch 2300/3149 ; LR 1.0000 ; Throughput 3171/1124/2047 total/src/targ tokens/sec ; PPL 42.32 ; Free mem 2077622272	
+Epoch 3 ; Batch 2350/3149 ; LR 1.0000 ; Throughput 3171/1124/2047 total/src/targ tokens/sec ; PPL 42.25 ; Free mem 2077622272	
+Epoch 3 ; Batch 2400/3149 ; LR 1.0000 ; Throughput 3170/1123/2047 total/src/targ tokens/sec ; PPL 42.18 ; Free mem 2077622272	
+Epoch 3 ; Batch 2450/3149 ; LR 1.0000 ; Throughput 3172/1125/2046 total/src/targ tokens/sec ; PPL 42.12 ; Free mem 2077622272	
+Epoch 3 ; Batch 2500/3149 ; LR 1.0000 ; Throughput 3173/1126/2047 total/src/targ tokens/sec ; PPL 42.03 ; Free mem 2077622272	
+Epoch 3 ; Batch 2550/3149 ; LR 1.0000 ; Throughput 3173/1125/2047 total/src/targ tokens/sec ; PPL 41.97 ; Free mem 2077622272	
+Epoch 3 ; Batch 2600/3149 ; LR 1.0000 ; Throughput 3171/1124/2046 total/src/targ tokens/sec ; PPL 41.89 ; Free mem 2077622272	
+Epoch 3 ; Batch 2650/3149 ; LR 1.0000 ; Throughput 3172/1124/2047 total/src/targ tokens/sec ; PPL 41.81 ; Free mem 2077622272	
+Epoch 3 ; Batch 2700/3149 ; LR 1.0000 ; Throughput 3172/1124/2047 total/src/targ tokens/sec ; PPL 41.76 ; Free mem 2077622272	
+Epoch 3 ; Batch 2750/3149 ; LR 1.0000 ; Throughput 3171/1123/2048 total/src/targ tokens/sec ; PPL 41.71 ; Free mem 2077622272	
+Epoch 3 ; Batch 2800/3149 ; LR 1.0000 ; Throughput 3171/1123/2047 total/src/targ tokens/sec ; PPL 41.63 ; Free mem 2077622272	
+Epoch 3 ; Batch 2850/3149 ; LR 1.0000 ; Throughput 3172/1124/2047 total/src/targ tokens/sec ; PPL 41.56 ; Free mem 2077622272	
+Epoch 3 ; Batch 2900/3149 ; LR 1.0000 ; Throughput 3172/1124/2048 total/src/targ tokens/sec ; PPL 41.49 ; Free mem 2077622272	
+Epoch 3 ; Batch 2950/3149 ; LR 1.0000 ; Throughput 3173/1124/2048 total/src/targ tokens/sec ; PPL 41.44 ; Free mem 2077622272	
+Epoch 3 ; Batch 3000/3149 ; LR 1.0000 ; Throughput 3171/1123/2048 total/src/targ tokens/sec ; PPL 41.38 ; Free mem 2077622272	
+Epoch 3 ; Batch 3050/3149 ; LR 1.0000 ; Throughput 3171/1123/2048 total/src/targ tokens/sec ; PPL 41.32 ; Free mem 2077622272	
+Epoch 3 ; Batch 3100/3149 ; LR 1.0000 ; Throughput 3171/1123/2048 total/src/targ tokens/sec ; PPL 41.25 ; Free mem 2077622272	
+Validation PPL: 46.142708252531	
+Saving checkpoint to demo-model_epoch3_46.14.t7...	
+	
+Epoch 4 ; Batch 50/3149 ; LR 1.0000 ; Throughput 3228/1177/2050 total/src/targ tokens/sec ; PPL 32.40 ; Free mem 2077622272	
+Epoch 4 ; Batch 100/3149 ; LR 1.0000 ; Throughput 3212/1170/2042 total/src/targ tokens/sec ; PPL 31.30 ; Free mem 2077622272	
+Epoch 4 ; Batch 150/3149 ; LR 1.0000 ; Throughput 3201/1155/2045 total/src/targ tokens/sec ; PPL 31.19 ; Free mem 2075525120	
+Epoch 4 ; Batch 200/3149 ; LR 1.0000 ; Throughput 3172/1136/2036 total/src/targ tokens/sec ; PPL 31.45 ; Free mem 2074476544	
+Epoch 4 ; Batch 250/3149 ; LR 1.0000 ; Throughput 3178/1131/2047 total/src/targ tokens/sec ; PPL 31.48 ; Free mem 2075525120	
+Epoch 4 ; Batch 300/3149 ; LR 1.0000 ; Throughput 3177/1132/2045 total/src/targ tokens/sec ; PPL 31.36 ; Free mem 2074476544	
+Epoch 4 ; Batch 350/3149 ; LR 1.0000 ; Throughput 3183/1136/2046 total/src/targ tokens/sec ; PPL 31.45 ; Free mem 2073427968	
+Epoch 4 ; Batch 400/3149 ; LR 1.0000 ; Throughput 3180/1134/2046 total/src/targ tokens/sec ; PPL 31.59 ; Free mem 2077622272	
+Epoch 4 ; Batch 450/3149 ; LR 1.0000 ; Throughput 3184/1139/2044 total/src/targ tokens/sec ; PPL 31.69 ; Free mem 2075525120	
+Epoch 4 ; Batch 500/3149 ; LR 1.0000 ; Throughput 3190/1145/2045 total/src/targ tokens/sec ; PPL 31.70 ; Free mem 2073427968	
+Epoch 4 ; Batch 550/3149 ; LR 1.0000 ; Throughput 3187/1141/2045 total/src/targ tokens/sec ; PPL 31.72 ; Free mem 2076573696	
+Epoch 4 ; Batch 600/3149 ; LR 1.0000 ; Throughput 3187/1144/2042 total/src/targ tokens/sec ; PPL 31.76 ; Free mem 2075525120	
+Epoch 4 ; Batch 650/3149 ; LR 1.0000 ; Throughput 3182/1138/2044 total/src/targ tokens/sec ; PPL 31.68 ; Free mem 2073427968	
+Epoch 4 ; Batch 700/3149 ; LR 1.0000 ; Throughput 3178/1136/2042 total/src/targ tokens/sec ; PPL 31.74 ; Free mem 2077622272	
+Epoch 4 ; Batch 750/3149 ; LR 1.0000 ; Throughput 3180/1136/2043 total/src/targ tokens/sec ; PPL 31.74 ; Free mem 2077622272	
+Epoch 4 ; Batch 800/3149 ; LR 1.0000 ; Throughput 3177/1134/2043 total/src/targ tokens/sec ; PPL 31.74 ; Free mem 2074476544	
+Epoch 4 ; Batch 850/3149 ; LR 1.0000 ; Throughput 3172/1129/2042 total/src/targ tokens/sec ; PPL 31.72 ; Free mem 2076573696	
+Epoch 4 ; Batch 900/3149 ; LR 1.0000 ; Throughput 3175/1129/2045 total/src/targ tokens/sec ; PPL 31.76 ; Free mem 2076573696	
+Epoch 4 ; Batch 950/3149 ; LR 1.0000 ; Throughput 3179/1133/2045 total/src/targ tokens/sec ; PPL 31.81 ; Free mem 2073427968	
+Epoch 4 ; Batch 1000/3149 ; LR 1.0000 ; Throughput 3172/1128/2043 total/src/targ tokens/sec ; PPL 31.87 ; Free mem 2075525120	
+Epoch 4 ; Batch 1050/3149 ; LR 1.0000 ; Throughput 3176/1130/2045 total/src/targ tokens/sec ; PPL 31.84 ; Free mem 2075525120	
+Epoch 4 ; Batch 1100/3149 ; LR 1.0000 ; Throughput 3171/1127/2043 total/src/targ tokens/sec ; PPL 31.77 ; Free mem 2074476544	
+Epoch 4 ; Batch 1150/3149 ; LR 1.0000 ; Throughput 3170/1126/2044 total/src/targ tokens/sec ; PPL 31.74 ; Free mem 2074476544	
+Epoch 4 ; Batch 1200/3149 ; LR 1.0000 ; Throughput 3171/1125/2045 total/src/targ tokens/sec ; PPL 31.67 ; Free mem 2075525120	
+Epoch 4 ; Batch 1250/3149 ; LR 1.0000 ; Throughput 3172/1126/2045 total/src/targ tokens/sec ; PPL 31.61 ; Free mem 2075525120	
+Epoch 4 ; Batch 1300/3149 ; LR 1.0000 ; Throughput 3172/1125/2046 total/src/targ tokens/sec ; PPL 31.62 ; Free mem 2073427968	
+Epoch 4 ; Batch 1350/3149 ; LR 1.0000 ; Throughput 3172/1126/2045 total/src/targ tokens/sec ; PPL 31.56 ; Free mem 2075525120	
+Epoch 4 ; Batch 1400/3149 ; LR 1.0000 ; Throughput 3173/1127/2046 total/src/targ tokens/sec ; PPL 31.55 ; Free mem 2074476544	
+Epoch 4 ; Batch 1450/3149 ; LR 1.0000 ; Throughput 3174/1126/2047 total/src/targ tokens/sec ; PPL 31.52 ; Free mem 2073427968	
+Epoch 4 ; Batch 1500/3149 ; LR 1.0000 ; Throughput 3172/1125/2047 total/src/targ tokens/sec ; PPL 31.55 ; Free mem 2078670848	
+Epoch 4 ; Batch 1550/3149 ; LR 1.0000 ; Throughput 3174/1126/2047 total/src/targ tokens/sec ; PPL 31.54 ; Free mem 2077622272	
+Epoch 4 ; Batch 1600/3149 ; LR 1.0000 ; Throughput 3175/1126/2048 total/src/targ tokens/sec ; PPL 31.56 ; Free mem 2073427968	
+Epoch 4 ; Batch 1650/3149 ; LR 1.0000 ; Throughput 3173/1124/2048 total/src/targ tokens/sec ; PPL 31.54 ; Free mem 2075525120	
+Epoch 4 ; Batch 1700/3149 ; LR 1.0000 ; Throughput 3174/1124/2049 total/src/targ tokens/sec ; PPL 31.52 ; Free mem 2075525120	
+Epoch 4 ; Batch 1750/3149 ; LR 1.0000 ; Throughput 3175/1125/2049 total/src/targ tokens/sec ; PPL 31.51 ; Free mem 2074476544	
+Epoch 4 ; Batch 1800/3149 ; LR 1.0000 ; Throughput 3175/1126/2049 total/src/targ tokens/sec ; PPL 31.50 ; Free mem 2075525120	
+Epoch 4 ; Batch 1850/3149 ; LR 1.0000 ; Throughput 3173/1124/2048 total/src/targ tokens/sec ; PPL 31.50 ; Free mem 2075525120	
+Epoch 4 ; Batch 1900/3149 ; LR 1.0000 ; Throughput 3172/1124/2047 total/src/targ tokens/sec ; PPL 31.48 ; Free mem 2073427968	
+Epoch 4 ; Batch 1950/3149 ; LR 1.0000 ; Throughput 3173/1125/2047 total/src/targ tokens/sec ; PPL 31.49 ; Free mem 2073427968	
+Epoch 4 ; Batch 2000/3149 ; LR 1.0000 ; Throughput 3174/1126/2048 total/src/targ tokens/sec ; PPL 31.49 ; Free mem 2075525120	
+Epoch 4 ; Batch 2050/3149 ; LR 1.0000 ; Throughput 3173/1125/2048 total/src/targ tokens/sec ; PPL 31.50 ; Free mem 2074476544	
+Epoch 4 ; Batch 2100/3149 ; LR 1.0000 ; Throughput 3174/1126/2048 total/src/targ tokens/sec ; PPL 31.47 ; Free mem 2073427968	
+Epoch 4 ; Batch 2150/3149 ; LR 1.0000 ; Throughput 3172/1125/2047 total/src/targ tokens/sec ; PPL 31.41 ; Free mem 2075525120	
+Epoch 4 ; Batch 2200/3149 ; LR 1.0000 ; Throughput 3174/1127/2047 total/src/targ tokens/sec ; PPL 31.41 ; Free mem 2074476544	
+Epoch 4 ; Batch 2250/3149 ; LR 1.0000 ; Throughput 3174/1126/2047 total/src/targ tokens/sec ; PPL 31.40 ; Free mem 2073427968	
+Epoch 4 ; Batch 2300/3149 ; LR 1.0000 ; Throughput 3172/1125/2047 total/src/targ tokens/sec ; PPL 31.34 ; Free mem 2075525120	
+Epoch 4 ; Batch 2350/3149 ; LR 1.0000 ; Throughput 3172/1125/2047 total/src/targ tokens/sec ; PPL 31.33 ; Free mem 2075525120	
+Epoch 4 ; Batch 2400/3149 ; LR 1.0000 ; Throughput 3172/1125/2047 total/src/targ tokens/sec ; PPL 31.32 ; Free mem 2074476544	
+Epoch 4 ; Batch 2450/3149 ; LR 1.0000 ; Throughput 3171/1124/2046 total/src/targ tokens/sec ; PPL 31.28 ; Free mem 2075525120	
+Epoch 4 ; Batch 2500/3149 ; LR 1.0000 ; Throughput 3171/1125/2046 total/src/targ tokens/sec ; PPL 31.26 ; Free mem 2075525120	
+Epoch 4 ; Batch 2550/3149 ; LR 1.0000 ; Throughput 3170/1124/2045 total/src/targ tokens/sec ; PPL 31.25 ; Free mem 2074476544	
+Epoch 4 ; Batch 2600/3149 ; LR 1.0000 ; Throughput 3169/1123/2045 total/src/targ tokens/sec ; PPL 31.25 ; Free mem 2075525120	
+Epoch 4 ; Batch 2650/3149 ; LR 1.0000 ; Throughput 3169/1123/2046 total/src/targ tokens/sec ; PPL 31.24 ; Free mem 2075525120	
+Epoch 4 ; Batch 2700/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 31.22 ; Free mem 2074476544	
+Epoch 4 ; Batch 2750/3149 ; LR 1.0000 ; Throughput 3169/1123/2045 total/src/targ tokens/sec ; PPL 31.18 ; Free mem 2078670848	
+Epoch 4 ; Batch 2800/3149 ; LR 1.0000 ; Throughput 3169/1123/2046 total/src/targ tokens/sec ; PPL 31.15 ; Free mem 2077622272	
+Epoch 4 ; Batch 2850/3149 ; LR 1.0000 ; Throughput 3170/1123/2046 total/src/targ tokens/sec ; PPL 31.16 ; Free mem 2074476544	
+Epoch 4 ; Batch 2900/3149 ; LR 1.0000 ; Throughput 3170/1123/2046 total/src/targ tokens/sec ; PPL 31.14 ; Free mem 2073427968	
+Epoch 4 ; Batch 2950/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 31.12 ; Free mem 2074476544	
+Epoch 4 ; Batch 3000/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 31.09 ; Free mem 2074476544	
+Epoch 4 ; Batch 3050/3149 ; LR 1.0000 ; Throughput 3170/1123/2047 total/src/targ tokens/sec ; PPL 31.07 ; Free mem 2073427968	
+Epoch 4 ; Batch 3100/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 31.04 ; Free mem 2074476544	
+Validation PPL: 37.594121637502	
+Saving checkpoint to demo-model_epoch4_37.59.t7...	
+	
+Epoch 5 ; Batch 50/3149 ; LR 1.0000 ; Throughput 3198/1145/2053 total/src/targ tokens/sec ; PPL 25.66 ; Free mem 2074476544	
+Epoch 5 ; Batch 100/3149 ; LR 1.0000 ; Throughput 3180/1132/2047 total/src/targ tokens/sec ; PPL 25.75 ; Free mem 2073427968	
+Epoch 5 ; Batch 150/3149 ; LR 1.0000 ; Throughput 3173/1120/2053 total/src/targ tokens/sec ; PPL 25.49 ; Free mem 2073427968	
+Epoch 5 ; Batch 200/3149 ; LR 1.0000 ; Throughput 3192/1143/2049 total/src/targ tokens/sec ; PPL 25.42 ; Free mem 2075525120	
+Epoch 5 ; Batch 250/3149 ; LR 1.0000 ; Throughput 3178/1128/2050 total/src/targ tokens/sec ; PPL 25.27 ; Free mem 2074476544	
+Epoch 5 ; Batch 300/3149 ; LR 1.0000 ; Throughput 3181/1129/2051 total/src/targ tokens/sec ; PPL 25.26 ; Free mem 2073427968	
+Epoch 5 ; Batch 350/3149 ; LR 1.0000 ; Throughput 3181/1131/2050 total/src/targ tokens/sec ; PPL 25.38 ; Free mem 2075525120	
+Epoch 5 ; Batch 400/3149 ; LR 1.0000 ; Throughput 3192/1138/2053 total/src/targ tokens/sec ; PPL 25.46 ; Free mem 2075525120	
+Epoch 5 ; Batch 450/3149 ; LR 1.0000 ; Throughput 3187/1136/2051 total/src/targ tokens/sec ; PPL 25.28 ; Free mem 2073427968	
+Epoch 5 ; Batch 500/3149 ; LR 1.0000 ; Throughput 3186/1137/2048 total/src/targ tokens/sec ; PPL 25.26 ; Free mem 2076573696	
+Epoch 5 ; Batch 550/3149 ; LR 1.0000 ; Throughput 3189/1137/2052 total/src/targ tokens/sec ; PPL 25.32 ; Free mem 2076573696	
+Epoch 5 ; Batch 600/3149 ; LR 1.0000 ; Throughput 3191/1138/2052 total/src/targ tokens/sec ; PPL 25.30 ; Free mem 2074476544	
+Epoch 5 ; Batch 650/3149 ; LR 1.0000 ; Throughput 3189/1139/2050 total/src/targ tokens/sec ; PPL 25.29 ; Free mem 2076573696	
+Epoch 5 ; Batch 700/3149 ; LR 1.0000 ; Throughput 3192/1142/2050 total/src/targ tokens/sec ; PPL 25.35 ; Free mem 2075525120	
+Epoch 5 ; Batch 750/3149 ; LR 1.0000 ; Throughput 3189/1141/2048 total/src/targ tokens/sec ; PPL 25.37 ; Free mem 2074476544	
+Epoch 5 ; Batch 800/3149 ; LR 1.0000 ; Throughput 3188/1139/2048 total/src/targ tokens/sec ; PPL 25.41 ; Free mem 2073427968	
+Epoch 5 ; Batch 850/3149 ; LR 1.0000 ; Throughput 3184/1135/2049 total/src/targ tokens/sec ; PPL 25.47 ; Free mem 2078670848	
+Epoch 5 ; Batch 900/3149 ; LR 1.0000 ; Throughput 3178/1129/2049 total/src/targ tokens/sec ; PPL 25.48 ; Free mem 2075525120	
+Epoch 5 ; Batch 950/3149 ; LR 1.0000 ; Throughput 3173/1123/2049 total/src/targ tokens/sec ; PPL 25.43 ; Free mem 2074476544	
+Epoch 5 ; Batch 1000/3149 ; LR 1.0000 ; Throughput 3169/1121/2048 total/src/targ tokens/sec ; PPL 25.46 ; Free mem 2076573696	
+Epoch 5 ; Batch 1050/3149 ; LR 1.0000 ; Throughput 3169/1121/2047 total/src/targ tokens/sec ; PPL 25.48 ; Free mem 2075525120	
+Epoch 5 ; Batch 1100/3149 ; LR 1.0000 ; Throughput 3169/1119/2049 total/src/targ tokens/sec ; PPL 25.47 ; Free mem 2074476544	
+Epoch 5 ; Batch 1150/3149 ; LR 1.0000 ; Throughput 3166/1116/2049 total/src/targ tokens/sec ; PPL 25.50 ; Free mem 2075525120	
+Epoch 5 ; Batch 1200/3149 ; LR 1.0000 ; Throughput 3166/1115/2051 total/src/targ tokens/sec ; PPL 25.50 ; Free mem 2075525120	
+Epoch 5 ; Batch 1250/3149 ; LR 1.0000 ; Throughput 3167/1115/2051 total/src/targ tokens/sec ; PPL 25.44 ; Free mem 2074476544	
+Epoch 5 ; Batch 1300/3149 ; LR 1.0000 ; Throughput 3168/1116/2051 total/src/targ tokens/sec ; PPL 25.49 ; Free mem 2073427968	
+Epoch 5 ; Batch 1350/3149 ; LR 1.0000 ; Throughput 3166/1114/2051 total/src/targ tokens/sec ; PPL 25.52 ; Free mem 2074476544	
+Epoch 5 ; Batch 1400/3149 ; LR 1.0000 ; Throughput 3166/1114/2052 total/src/targ tokens/sec ; PPL 25.51 ; Free mem 2073427968	
+Epoch 5 ; Batch 1450/3149 ; LR 1.0000 ; Throughput 3164/1111/2052 total/src/targ tokens/sec ; PPL 25.52 ; Free mem 2073427968	
+Epoch 5 ; Batch 1500/3149 ; LR 1.0000 ; Throughput 3161/1109/2051 total/src/targ tokens/sec ; PPL 25.54 ; Free mem 2074476544	
+Epoch 5 ; Batch 1550/3149 ; LR 1.0000 ; Throughput 3162/1109/2053 total/src/targ tokens/sec ; PPL 25.57 ; Free mem 2074476544	
+Epoch 5 ; Batch 1600/3149 ; LR 1.0000 ; Throughput 3164/1111/2052 total/src/targ tokens/sec ; PPL 25.58 ; Free mem 2073427968	
+Epoch 5 ; Batch 1650/3149 ; LR 1.0000 ; Throughput 3166/1113/2052 total/src/targ tokens/sec ; PPL 25.63 ; Free mem 2074476544	
+Epoch 5 ; Batch 1700/3149 ; LR 1.0000 ; Throughput 3166/1114/2051 total/src/targ tokens/sec ; PPL 25.63 ; Free mem 2074476544	
+Epoch 5 ; Batch 1750/3149 ; LR 1.0000 ; Throughput 3164/1113/2050 total/src/targ tokens/sec ; PPL 25.65 ; Free mem 2073427968	
+Epoch 5 ; Batch 1800/3149 ; LR 1.0000 ; Throughput 3165/1114/2050 total/src/targ tokens/sec ; PPL 25.68 ; Free mem 2075525120	
+Epoch 5 ; Batch 1850/3149 ; LR 1.0000 ; Throughput 3166/1115/2051 total/src/targ tokens/sec ; PPL 25.72 ; Free mem 2075525120	
+Epoch 5 ; Batch 1900/3149 ; LR 1.0000 ; Throughput 3167/1116/2051 total/src/targ tokens/sec ; PPL 25.72 ; Free mem 2073427968	
+Epoch 5 ; Batch 1950/3149 ; LR 1.0000 ; Throughput 3168/1117/2050 total/src/targ tokens/sec ; PPL 25.74 ; Free mem 2074476544	
+Epoch 5 ; Batch 2000/3149 ; LR 1.0000 ; Throughput 3169/1117/2051 total/src/targ tokens/sec ; PPL 25.74 ; Free mem 2074476544	
+Epoch 5 ; Batch 2050/3149 ; LR 1.0000 ; Throughput 3169/1117/2052 total/src/targ tokens/sec ; PPL 25.75 ; Free mem 2073427968	
+Epoch 5 ; Batch 2100/3149 ; LR 1.0000 ; Throughput 3168/1117/2051 total/src/targ tokens/sec ; PPL 25.78 ; Free mem 2076573696	
+Epoch 5 ; Batch 2150/3149 ; LR 1.0000 ; Throughput 3170/1118/2051 total/src/targ tokens/sec ; PPL 25.78 ; Free mem 2076573696	
+Epoch 5 ; Batch 2200/3149 ; LR 1.0000 ; Throughput 3170/1119/2051 total/src/targ tokens/sec ; PPL 25.78 ; Free mem 2074476544	
+Epoch 5 ; Batch 2250/3149 ; LR 1.0000 ; Throughput 3170/1118/2051 total/src/targ tokens/sec ; PPL 25.78 ; Free mem 2074476544	
+Epoch 5 ; Batch 2300/3149 ; LR 1.0000 ; Throughput 3169/1118/2050 total/src/targ tokens/sec ; PPL 25.77 ; Free mem 2075525120	
+Epoch 5 ; Batch 2350/3149 ; LR 1.0000 ; Throughput 3171/1121/2050 total/src/targ tokens/sec ; PPL 25.78 ; Free mem 2074476544	
+Epoch 5 ; Batch 2400/3149 ; LR 1.0000 ; Throughput 3170/1122/2048 total/src/targ tokens/sec ; PPL 25.79 ; Free mem 2073427968	
+Epoch 5 ; Batch 2450/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 25.81 ; Free mem 2074476544	
+Epoch 5 ; Batch 2500/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 25.80 ; Free mem 2073427968	
+Epoch 5 ; Batch 2550/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 25.81 ; Free mem 2073427968	
+Epoch 5 ; Batch 2600/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 25.79 ; Free mem 2076573696	
+Epoch 5 ; Batch 2650/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 25.78 ; Free mem 2075525120	
+Epoch 5 ; Batch 2700/3149 ; LR 1.0000 ; Throughput 3170/1123/2047 total/src/targ tokens/sec ; PPL 25.78 ; Free mem 2073427968	
+Epoch 5 ; Batch 2750/3149 ; LR 1.0000 ; Throughput 3169/1123/2046 total/src/targ tokens/sec ; PPL 25.78 ; Free mem 2074476544	
+Epoch 5 ; Batch 2800/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 25.79 ; Free mem 2074476544	
+Epoch 5 ; Batch 2850/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 25.79 ; Free mem 2073427968	
+Epoch 5 ; Batch 2900/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 25.80 ; Free mem 2075525120	
+Epoch 5 ; Batch 2950/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 25.82 ; Free mem 2075525120	
+Epoch 5 ; Batch 3000/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 25.82 ; Free mem 2074476544	
+Epoch 5 ; Batch 3050/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 25.83 ; Free mem 2075525120	
+Epoch 5 ; Batch 3100/3149 ; LR 1.0000 ; Throughput 3171/1123/2047 total/src/targ tokens/sec ; PPL 25.82 ; Free mem 2075525120	
+Validation PPL: 33.773883112551	
+Saving checkpoint to demo-model_epoch5_33.77.t7...	
+	
+Epoch 6 ; Batch 50/3149 ; LR 1.0000 ; Throughput 3257/1176/2080 total/src/targ tokens/sec ; PPL 22.60 ; Free mem 2076573696	
+Epoch 6 ; Batch 100/3149 ; LR 1.0000 ; Throughput 3205/1132/2072 total/src/targ tokens/sec ; PPL 22.21 ; Free mem 2074476544	
+Epoch 6 ; Batch 150/3149 ; LR 1.0000 ; Throughput 3191/1119/2072 total/src/targ tokens/sec ; PPL 22.29 ; Free mem 2074476544	
+Epoch 6 ; Batch 200/3149 ; LR 1.0000 ; Throughput 3181/1111/2070 total/src/targ tokens/sec ; PPL 22.13 ; Free mem 2075525120	
+Epoch 6 ; Batch 250/3149 ; LR 1.0000 ; Throughput 3175/1103/2072 total/src/targ tokens/sec ; PPL 22.21 ; Free mem 2075525120	
+Epoch 6 ; Batch 300/3149 ; LR 1.0000 ; Throughput 3167/1096/2071 total/src/targ tokens/sec ; PPL 22.15 ; Free mem 2074476544	
+Epoch 6 ; Batch 350/3149 ; LR 1.0000 ; Throughput 3167/1098/2068 total/src/targ tokens/sec ; PPL 22.25 ; Free mem 2075525120	
+Epoch 6 ; Batch 400/3149 ; LR 1.0000 ; Throughput 3166/1099/2067 total/src/targ tokens/sec ; PPL 22.18 ; Free mem 2075525120	
+Epoch 6 ; Batch 450/3149 ; LR 1.0000 ; Throughput 3167/1104/2063 total/src/targ tokens/sec ; PPL 22.22 ; Free mem 2073427968	
+Epoch 6 ; Batch 500/3149 ; LR 1.0000 ; Throughput 3162/1104/2057 total/src/targ tokens/sec ; PPL 22.30 ; Free mem 2075525120	
+Epoch 6 ; Batch 550/3149 ; LR 1.0000 ; Throughput 3169/1112/2056 total/src/targ tokens/sec ; PPL 22.24 ; Free mem 2074476544	
+Epoch 6 ; Batch 600/3149 ; LR 1.0000 ; Throughput 3172/1116/2055 total/src/targ tokens/sec ; PPL 22.16 ; Free mem 2073427968	
+Epoch 6 ; Batch 650/3149 ; LR 1.0000 ; Throughput 3175/1122/2053 total/src/targ tokens/sec ; PPL 22.18 ; Free mem 2077622272	
+Epoch 6 ; Batch 700/3149 ; LR 1.0000 ; Throughput 3175/1120/2055 total/src/targ tokens/sec ; PPL 22.13 ; Free mem 2077622272	
+Epoch 6 ; Batch 750/3149 ; LR 1.0000 ; Throughput 3179/1123/2056 total/src/targ tokens/sec ; PPL 22.11 ; Free mem 2073427968	
+Epoch 6 ; Batch 800/3149 ; LR 1.0000 ; Throughput 3180/1124/2055 total/src/targ tokens/sec ; PPL 22.15 ; Free mem 2074476544	
+Epoch 6 ; Batch 850/3149 ; LR 1.0000 ; Throughput 3180/1125/2055 total/src/targ tokens/sec ; PPL 22.19 ; Free mem 2074476544	
+Epoch 6 ; Batch 900/3149 ; LR 1.0000 ; Throughput 3177/1123/2053 total/src/targ tokens/sec ; PPL 22.14 ; Free mem 2073427968	
+Epoch 6 ; Batch 950/3149 ; LR 1.0000 ; Throughput 3175/1123/2051 total/src/targ tokens/sec ; PPL 22.14 ; Free mem 2073427968	
+Epoch 6 ; Batch 1000/3149 ; LR 1.0000 ; Throughput 3172/1120/2051 total/src/targ tokens/sec ; PPL 22.11 ; Free mem 2076573696	
+Epoch 6 ; Batch 1050/3149 ; LR 1.0000 ; Throughput 3171/1119/2052 total/src/targ tokens/sec ; PPL 22.17 ; Free mem 2074476544	
+Epoch 6 ; Batch 1100/3149 ; LR 1.0000 ; Throughput 3173/1122/2051 total/src/targ tokens/sec ; PPL 22.20 ; Free mem 2074476544	
+Epoch 6 ; Batch 1150/3149 ; LR 1.0000 ; Throughput 3173/1122/2050 total/src/targ tokens/sec ; PPL 22.23 ; Free mem 2078670848	
+Epoch 6 ; Batch 1200/3149 ; LR 1.0000 ; Throughput 3174/1124/2049 total/src/targ tokens/sec ; PPL 22.28 ; Free mem 2075525120	
+Epoch 6 ; Batch 1250/3149 ; LR 1.0000 ; Throughput 3172/1123/2049 total/src/targ tokens/sec ; PPL 22.32 ; Free mem 2073427968	
+Epoch 6 ; Batch 1300/3149 ; LR 1.0000 ; Throughput 3173/1124/2048 total/src/targ tokens/sec ; PPL 22.34 ; Free mem 2073427968	
+Epoch 6 ; Batch 1350/3149 ; LR 1.0000 ; Throughput 3173/1124/2049 total/src/targ tokens/sec ; PPL 22.37 ; Free mem 2073427968	
+Epoch 6 ; Batch 1400/3149 ; LR 1.0000 ; Throughput 3173/1123/2049 total/src/targ tokens/sec ; PPL 22.37 ; Free mem 2073427968	
+Epoch 6 ; Batch 1450/3149 ; LR 1.0000 ; Throughput 3172/1123/2049 total/src/targ tokens/sec ; PPL 22.35 ; Free mem 2076573696	
+Epoch 6 ; Batch 1500/3149 ; LR 1.0000 ; Throughput 3171/1122/2048 total/src/targ tokens/sec ; PPL 22.32 ; Free mem 2075525120	
+Epoch 6 ; Batch 1550/3149 ; LR 1.0000 ; Throughput 3172/1122/2049 total/src/targ tokens/sec ; PPL 22.33 ; Free mem 2074476544	
+Epoch 6 ; Batch 1600/3149 ; LR 1.0000 ; Throughput 3169/1119/2050 total/src/targ tokens/sec ; PPL 22.29 ; Free mem 2075525120	
+Epoch 6 ; Batch 1650/3149 ; LR 1.0000 ; Throughput 3171/1120/2050 total/src/targ tokens/sec ; PPL 22.35 ; Free mem 2075525120	
+Epoch 6 ; Batch 1700/3149 ; LR 1.0000 ; Throughput 3173/1122/2050 total/src/targ tokens/sec ; PPL 22.33 ; Free mem 2074476544	
+Epoch 6 ; Batch 1750/3149 ; LR 1.0000 ; Throughput 3172/1122/2049 total/src/targ tokens/sec ; PPL 22.32 ; Free mem 2073427968	
+Epoch 6 ; Batch 1800/3149 ; LR 1.0000 ; Throughput 3170/1121/2049 total/src/targ tokens/sec ; PPL 22.31 ; Free mem 2076573696	
+Epoch 6 ; Batch 1850/3149 ; LR 1.0000 ; Throughput 3172/1122/2049 total/src/targ tokens/sec ; PPL 22.34 ; Free mem 2075525120	
+Epoch 6 ; Batch 1900/3149 ; LR 1.0000 ; Throughput 3171/1121/2049 total/src/targ tokens/sec ; PPL 22.39 ; Free mem 2073427968	
+Epoch 6 ; Batch 1950/3149 ; LR 1.0000 ; Throughput 3170/1120/2049 total/src/targ tokens/sec ; PPL 22.41 ; Free mem 2075525120	
+Epoch 6 ; Batch 2000/3149 ; LR 1.0000 ; Throughput 3170/1120/2050 total/src/targ tokens/sec ; PPL 22.43 ; Free mem 2075525120	
+Epoch 6 ; Batch 2050/3149 ; LR 1.0000 ; Throughput 3171/1121/2049 total/src/targ tokens/sec ; PPL 22.44 ; Free mem 2073427968	
+Epoch 6 ; Batch 2100/3149 ; LR 1.0000 ; Throughput 3171/1122/2048 total/src/targ tokens/sec ; PPL 22.42 ; Free mem 2077622272	
+Epoch 6 ; Batch 2150/3149 ; LR 1.0000 ; Throughput 3171/1122/2048 total/src/targ tokens/sec ; PPL 22.42 ; Free mem 2076573696	
+Epoch 6 ; Batch 2200/3149 ; LR 1.0000 ; Throughput 3172/1123/2048 total/src/targ tokens/sec ; PPL 22.46 ; Free mem 2074476544	
+Epoch 6 ; Batch 2250/3149 ; LR 1.0000 ; Throughput 3172/1124/2047 total/src/targ tokens/sec ; PPL 22.45 ; Free mem 2076573696	
+Epoch 6 ; Batch 2300/3149 ; LR 1.0000 ; Throughput 3172/1124/2048 total/src/targ tokens/sec ; PPL 22.45 ; Free mem 2076573696	
+Epoch 6 ; Batch 2350/3149 ; LR 1.0000 ; Throughput 3171/1123/2048 total/src/targ tokens/sec ; PPL 22.47 ; Free mem 2074476544	
+Epoch 6 ; Batch 2400/3149 ; LR 1.0000 ; Throughput 3169/1121/2047 total/src/targ tokens/sec ; PPL 22.48 ; Free mem 2074476544	
+Epoch 6 ; Batch 2450/3149 ; LR 1.0000 ; Throughput 3169/1121/2048 total/src/targ tokens/sec ; PPL 22.47 ; Free mem 2074476544	
+Epoch 6 ; Batch 2500/3149 ; LR 1.0000 ; Throughput 3168/1121/2047 total/src/targ tokens/sec ; PPL 22.45 ; Free mem 2073427968	
+Epoch 6 ; Batch 2550/3149 ; LR 1.0000 ; Throughput 3168/1121/2047 total/src/targ tokens/sec ; PPL 22.45 ; Free mem 2073427968	
+Epoch 6 ; Batch 2600/3149 ; LR 1.0000 ; Throughput 3168/1121/2047 total/src/targ tokens/sec ; PPL 22.46 ; Free mem 2075525120	
+Epoch 6 ; Batch 2650/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 22.45 ; Free mem 2075525120	
+Epoch 6 ; Batch 2700/3149 ; LR 1.0000 ; Throughput 3168/1121/2047 total/src/targ tokens/sec ; PPL 22.46 ; Free mem 2073427968	
+Epoch 6 ; Batch 2750/3149 ; LR 1.0000 ; Throughput 3167/1120/2047 total/src/targ tokens/sec ; PPL 22.45 ; Free mem 2075525120	
+Epoch 6 ; Batch 2800/3149 ; LR 1.0000 ; Throughput 3167/1120/2047 total/src/targ tokens/sec ; PPL 22.46 ; Free mem 2075525120	
+Epoch 6 ; Batch 2850/3149 ; LR 1.0000 ; Throughput 3166/1119/2047 total/src/targ tokens/sec ; PPL 22.47 ; Free mem 2073427968	
+Epoch 6 ; Batch 2900/3149 ; LR 1.0000 ; Throughput 3166/1119/2046 total/src/targ tokens/sec ; PPL 22.46 ; Free mem 2074476544	
+Epoch 6 ; Batch 2950/3149 ; LR 1.0000 ; Throughput 3167/1120/2047 total/src/targ tokens/sec ; PPL 22.46 ; Free mem 2074476544	
+Epoch 6 ; Batch 3000/3149 ; LR 1.0000 ; Throughput 3167/1120/2047 total/src/targ tokens/sec ; PPL 22.47 ; Free mem 2073427968	
+Epoch 6 ; Batch 3050/3149 ; LR 1.0000 ; Throughput 3166/1119/2047 total/src/targ tokens/sec ; PPL 22.47 ; Free mem 2075525120	
+Epoch 6 ; Batch 3100/3149 ; LR 1.0000 ; Throughput 3169/1121/2047 total/src/targ tokens/sec ; PPL 22.49 ; Free mem 2075525120	
+Validation PPL: 31.630066227647	
+Saving checkpoint to demo-model_epoch6_31.63.t7...	
+	
+Epoch 7 ; Batch 50/3149 ; LR 1.0000 ; Throughput 3212/1151/2060 total/src/targ tokens/sec ; PPL 18.55 ; Free mem 2076573696	
+Epoch 7 ; Batch 100/3149 ; LR 1.0000 ; Throughput 3191/1125/2065 total/src/targ tokens/sec ; PPL 18.78 ; Free mem 2074476544	
+Epoch 7 ; Batch 150/3149 ; LR 1.0000 ; Throughput 3194/1128/2066 total/src/targ tokens/sec ; PPL 18.71 ; Free mem 2074476544	
+Epoch 7 ; Batch 200/3149 ; LR 1.0000 ; Throughput 3184/1125/2059 total/src/targ tokens/sec ; PPL 18.97 ; Free mem 2076573696	
+Epoch 7 ; Batch 250/3149 ; LR 1.0000 ; Throughput 3182/1121/2060 total/src/targ tokens/sec ; PPL 19.08 ; Free mem 2074476544	
+Epoch 7 ; Batch 300/3149 ; LR 1.0000 ; Throughput 3184/1124/2059 total/src/targ tokens/sec ; PPL 19.16 ; Free mem 2073427968	
+Epoch 7 ; Batch 350/3149 ; LR 1.0000 ; Throughput 3183/1125/2058 total/src/targ tokens/sec ; PPL 19.14 ; Free mem 2075525120	
+Epoch 7 ; Batch 400/3149 ; LR 1.0000 ; Throughput 3188/1129/2059 total/src/targ tokens/sec ; PPL 19.20 ; Free mem 2075525120	
+Epoch 7 ; Batch 450/3149 ; LR 1.0000 ; Throughput 3173/1117/2055 total/src/targ tokens/sec ; PPL 19.07 ; Free mem 2074476544	
+Epoch 7 ; Batch 500/3149 ; LR 1.0000 ; Throughput 3167/1119/2048 total/src/targ tokens/sec ; PPL 19.12 ; Free mem 2076573696	
+Epoch 7 ; Batch 550/3149 ; LR 1.0000 ; Throughput 3172/1124/2048 total/src/targ tokens/sec ; PPL 19.13 ; Free mem 2076573696	
+Epoch 7 ; Batch 600/3149 ; LR 1.0000 ; Throughput 3171/1125/2045 total/src/targ tokens/sec ; PPL 19.19 ; Free mem 2074476544	
+Epoch 7 ; Batch 650/3149 ; LR 1.0000 ; Throughput 3170/1126/2044 total/src/targ tokens/sec ; PPL 19.23 ; Free mem 2075525120	
+Epoch 7 ; Batch 700/3149 ; LR 1.0000 ; Throughput 3174/1126/2047 total/src/targ tokens/sec ; PPL 19.26 ; Free mem 2075525120	
+Epoch 7 ; Batch 750/3149 ; LR 1.0000 ; Throughput 3172/1126/2046 total/src/targ tokens/sec ; PPL 19.30 ; Free mem 2074476544	
+Epoch 7 ; Batch 800/3149 ; LR 1.0000 ; Throughput 3170/1122/2048 total/src/targ tokens/sec ; PPL 19.29 ; Free mem 2074476544	
+Epoch 7 ; Batch 850/3149 ; LR 1.0000 ; Throughput 3171/1123/2048 total/src/targ tokens/sec ; PPL 19.36 ; Free mem 2075525120	
+Epoch 7 ; Batch 900/3149 ; LR 1.0000 ; Throughput 3167/1120/2047 total/src/targ tokens/sec ; PPL 19.40 ; Free mem 2074476544	
+Epoch 7 ; Batch 950/3149 ; LR 1.0000 ; Throughput 3168/1121/2047 total/src/targ tokens/sec ; PPL 19.38 ; Free mem 2073427968	
+Epoch 7 ; Batch 1000/3149 ; LR 1.0000 ; Throughput 3167/1121/2046 total/src/targ tokens/sec ; PPL 19.41 ; Free mem 2076573696	
+Epoch 7 ; Batch 1050/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 19.44 ; Free mem 2075525120	
+Epoch 7 ; Batch 1100/3149 ; LR 1.0000 ; Throughput 3168/1121/2046 total/src/targ tokens/sec ; PPL 19.49 ; Free mem 2073427968	
+Epoch 7 ; Batch 1150/3149 ; LR 1.0000 ; Throughput 3166/1119/2047 total/src/targ tokens/sec ; PPL 19.50 ; Free mem 2074476544	
+Epoch 7 ; Batch 1200/3149 ; LR 1.0000 ; Throughput 3170/1122/2048 total/src/targ tokens/sec ; PPL 19.54 ; Free mem 2074476544	
+Epoch 7 ; Batch 1250/3149 ; LR 1.0000 ; Throughput 3172/1124/2048 total/src/targ tokens/sec ; PPL 19.61 ; Free mem 2073427968	
+Epoch 7 ; Batch 1300/3149 ; LR 1.0000 ; Throughput 3172/1124/2047 total/src/targ tokens/sec ; PPL 19.62 ; Free mem 2076573696	
+Epoch 7 ; Batch 1350/3149 ; LR 1.0000 ; Throughput 3171/1124/2047 total/src/targ tokens/sec ; PPL 19.64 ; Free mem 2075525120	
+Epoch 7 ; Batch 1400/3149 ; LR 1.0000 ; Throughput 3172/1123/2048 total/src/targ tokens/sec ; PPL 19.67 ; Free mem 2073427968	
+Epoch 7 ; Batch 1450/3149 ; LR 1.0000 ; Throughput 3172/1125/2047 total/src/targ tokens/sec ; PPL 19.67 ; Free mem 2075525120	
+Epoch 7 ; Batch 1500/3149 ; LR 1.0000 ; Throughput 3173/1124/2048 total/src/targ tokens/sec ; PPL 19.71 ; Free mem 2075525120	
+Epoch 7 ; Batch 1550/3149 ; LR 1.0000 ; Throughput 3171/1124/2047 total/src/targ tokens/sec ; PPL 19.71 ; Free mem 2074476544	
+Epoch 7 ; Batch 1600/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 19.76 ; Free mem 2077622272	
+Epoch 7 ; Batch 1650/3149 ; LR 1.0000 ; Throughput 3169/1121/2048 total/src/targ tokens/sec ; PPL 19.76 ; Free mem 2076573696	
+Epoch 7 ; Batch 1700/3149 ; LR 1.0000 ; Throughput 3169/1121/2047 total/src/targ tokens/sec ; PPL 19.80 ; Free mem 2074476544	
+Epoch 7 ; Batch 1750/3149 ; LR 1.0000 ; Throughput 3168/1120/2048 total/src/targ tokens/sec ; PPL 19.81 ; Free mem 2073427968	
+Epoch 7 ; Batch 1800/3149 ; LR 1.0000 ; Throughput 3168/1120/2048 total/src/targ tokens/sec ; PPL 19.82 ; Free mem 2074476544	
+Epoch 7 ; Batch 1850/3149 ; LR 1.0000 ; Throughput 3168/1120/2048 total/src/targ tokens/sec ; PPL 19.85 ; Free mem 2074476544	
+Epoch 7 ; Batch 1900/3149 ; LR 1.0000 ; Throughput 3168/1119/2048 total/src/targ tokens/sec ; PPL 19.86 ; Free mem 2074476544	
+Epoch 7 ; Batch 1950/3149 ; LR 1.0000 ; Throughput 3168/1120/2047 total/src/targ tokens/sec ; PPL 19.88 ; Free mem 2076573696	
+Epoch 7 ; Batch 2000/3149 ; LR 1.0000 ; Throughput 3167/1120/2047 total/src/targ tokens/sec ; PPL 19.90 ; Free mem 2075525120	
+Epoch 7 ; Batch 2050/3149 ; LR 1.0000 ; Throughput 3169/1121/2047 total/src/targ tokens/sec ; PPL 19.94 ; Free mem 2073427968	
+Epoch 7 ; Batch 2100/3149 ; LR 1.0000 ; Throughput 3169/1121/2047 total/src/targ tokens/sec ; PPL 19.96 ; Free mem 2075525120	
+Epoch 7 ; Batch 2150/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 19.95 ; Free mem 2075525120	
+Epoch 7 ; Batch 2200/3149 ; LR 1.0000 ; Throughput 3167/1121/2046 total/src/targ tokens/sec ; PPL 19.94 ; Free mem 2074476544	
+Epoch 7 ; Batch 2250/3149 ; LR 1.0000 ; Throughput 3168/1122/2046 total/src/targ tokens/sec ; PPL 19.98 ; Free mem 2077622272	
+Epoch 7 ; Batch 2300/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 19.99 ; Free mem 2077622272	
+Epoch 7 ; Batch 2350/3149 ; LR 1.0000 ; Throughput 3169/1122/2046 total/src/targ tokens/sec ; PPL 19.99 ; Free mem 2073427968	
+Epoch 7 ; Batch 2400/3149 ; LR 1.0000 ; Throughput 3170/1123/2046 total/src/targ tokens/sec ; PPL 20.01 ; Free mem 2075525120	
+Epoch 7 ; Batch 2450/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 20.02 ; Free mem 2075525120	
+Epoch 7 ; Batch 2500/3149 ; LR 1.0000 ; Throughput 3171/1123/2047 total/src/targ tokens/sec ; PPL 20.03 ; Free mem 2073427968	
+Epoch 7 ; Batch 2550/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 20.07 ; Free mem 2074476544	
+Epoch 7 ; Batch 2600/3149 ; LR 1.0000 ; Throughput 3170/1122/2048 total/src/targ tokens/sec ; PPL 20.05 ; Free mem 2074476544	
+Epoch 7 ; Batch 2650/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 20.05 ; Free mem 2073427968	
+Epoch 7 ; Batch 2700/3149 ; LR 1.0000 ; Throughput 3170/1123/2047 total/src/targ tokens/sec ; PPL 20.06 ; Free mem 2073427968	
+Epoch 7 ; Batch 2750/3149 ; LR 1.0000 ; Throughput 3170/1123/2047 total/src/targ tokens/sec ; PPL 20.08 ; Free mem 2074476544	
+Epoch 7 ; Batch 2800/3149 ; LR 1.0000 ; Throughput 3171/1123/2047 total/src/targ tokens/sec ; PPL 20.11 ; Free mem 2073427968	
+Epoch 7 ; Batch 2850/3149 ; LR 1.0000 ; Throughput 3171/1124/2047 total/src/targ tokens/sec ; PPL 20.11 ; Free mem 2073427968	
+Epoch 7 ; Batch 2900/3149 ; LR 1.0000 ; Throughput 3171/1124/2047 total/src/targ tokens/sec ; PPL 20.12 ; Free mem 2075525120	
+Epoch 7 ; Batch 2950/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 20.13 ; Free mem 2074476544	
+Epoch 7 ; Batch 3000/3149 ; LR 1.0000 ; Throughput 3170/1123/2047 total/src/targ tokens/sec ; PPL 20.13 ; Free mem 2073427968	
+Epoch 7 ; Batch 3050/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 20.14 ; Free mem 2075525120	
+Epoch 7 ; Batch 3100/3149 ; LR 1.0000 ; Throughput 3170/1122/2047 total/src/targ tokens/sec ; PPL 20.14 ; Free mem 2075525120	
+Validation PPL: 30.151635337306	
+Saving checkpoint to demo-model_epoch7_30.15.t7...	
+	
+Epoch 8 ; Batch 50/3149 ; LR 1.0000 ; Throughput 3222/1164/2058 total/src/targ tokens/sec ; PPL 16.99 ; Free mem 2077622272	
+Epoch 8 ; Batch 100/3149 ; LR 1.0000 ; Throughput 3193/1134/2059 total/src/targ tokens/sec ; PPL 17.01 ; Free mem 2074476544	
+Epoch 8 ; Batch 150/3149 ; LR 1.0000 ; Throughput 3164/1120/2043 total/src/targ tokens/sec ; PPL 17.00 ; Free mem 2075525120	
+Epoch 8 ; Batch 200/3149 ; LR 1.0000 ; Throughput 3166/1115/2050 total/src/targ tokens/sec ; PPL 17.10 ; Free mem 2075525120	
+Epoch 8 ; Batch 250/3149 ; LR 1.0000 ; Throughput 3175/1123/2051 total/src/targ tokens/sec ; PPL 17.12 ; Free mem 2074476544	
+Epoch 8 ; Batch 300/3149 ; LR 1.0000 ; Throughput 3155/1113/2042 total/src/targ tokens/sec ; PPL 17.21 ; Free mem 2073427968	
+Epoch 8 ; Batch 350/3149 ; LR 1.0000 ; Throughput 3155/1113/2041 total/src/targ tokens/sec ; PPL 17.35 ; Free mem 2077622272	
+Epoch 8 ; Batch 400/3149 ; LR 1.0000 ; Throughput 3156/1112/2044 total/src/targ tokens/sec ; PPL 17.44 ; Free mem 2074476544	
+Epoch 8 ; Batch 450/3149 ; LR 1.0000 ; Throughput 3159/1115/2044 total/src/targ tokens/sec ; PPL 17.49 ; Free mem 2073427968	
+Epoch 8 ; Batch 500/3149 ; LR 1.0000 ; Throughput 3167/1123/2043 total/src/targ tokens/sec ; PPL 17.60 ; Free mem 2076573696	
+Epoch 8 ; Batch 550/3149 ; LR 1.0000 ; Throughput 3164/1120/2043 total/src/targ tokens/sec ; PPL 17.59 ; Free mem 2074476544	
+Epoch 8 ; Batch 600/3149 ; LR 1.0000 ; Throughput 3167/1121/2045 total/src/targ tokens/sec ; PPL 17.58 ; Free mem 2073427968	
+Epoch 8 ; Batch 650/3149 ; LR 1.0000 ; Throughput 3168/1122/2045 total/src/targ tokens/sec ; PPL 17.62 ; Free mem 2075525120	
+Epoch 8 ; Batch 700/3149 ; LR 1.0000 ; Throughput 3173/1125/2047 total/src/targ tokens/sec ; PPL 17.67 ; Free mem 2075525120	
+Epoch 8 ; Batch 750/3149 ; LR 1.0000 ; Throughput 3171/1125/2045 total/src/targ tokens/sec ; PPL 17.75 ; Free mem 2073427968	
+Epoch 8 ; Batch 800/3149 ; LR 1.0000 ; Throughput 3168/1127/2041 total/src/targ tokens/sec ; PPL 17.79 ; Free mem 2076573696	
+Epoch 8 ; Batch 850/3149 ; LR 1.0000 ; Throughput 3170/1126/2043 total/src/targ tokens/sec ; PPL 17.79 ; Free mem 2076573696	
+Epoch 8 ; Batch 900/3149 ; LR 1.0000 ; Throughput 3171/1127/2043 total/src/targ tokens/sec ; PPL 17.82 ; Free mem 2074476544	
+Epoch 8 ; Batch 950/3149 ; LR 1.0000 ; Throughput 3171/1128/2042 total/src/targ tokens/sec ; PPL 17.87 ; Free mem 2075525120	
+Epoch 8 ; Batch 1000/3149 ; LR 1.0000 ; Throughput 3175/1131/2044 total/src/targ tokens/sec ; PPL 17.89 ; Free mem 2075525120	
+Epoch 8 ; Batch 1050/3149 ; LR 1.0000 ; Throughput 3176/1131/2045 total/src/targ tokens/sec ; PPL 17.95 ; Free mem 2073427968	
+Epoch 8 ; Batch 1100/3149 ; LR 1.0000 ; Throughput 3174/1129/2044 total/src/targ tokens/sec ; PPL 17.96 ; Free mem 2075525120	
+Epoch 8 ; Batch 1150/3149 ; LR 1.0000 ; Throughput 3179/1133/2045 total/src/targ tokens/sec ; PPL 17.96 ; Free mem 2075525120	
+Epoch 8 ; Batch 1200/3149 ; LR 1.0000 ; Throughput 3178/1132/2046 total/src/targ tokens/sec ; PPL 17.98 ; Free mem 2074476544	
+Epoch 8 ; Batch 1250/3149 ; LR 1.0000 ; Throughput 3175/1131/2044 total/src/targ tokens/sec ; PPL 17.96 ; Free mem 2076573696	
+Epoch 8 ; Batch 1300/3149 ; LR 1.0000 ; Throughput 3175/1132/2042 total/src/targ tokens/sec ; PPL 17.99 ; Free mem 2075525120	
+Epoch 8 ; Batch 1350/3149 ; LR 1.0000 ; Throughput 3174/1131/2043 total/src/targ tokens/sec ; PPL 18.03 ; Free mem 2073427968	
+Epoch 8 ; Batch 1400/3149 ; LR 1.0000 ; Throughput 3174/1129/2044 total/src/targ tokens/sec ; PPL 18.03 ; Free mem 2073427968	
+Epoch 8 ; Batch 1450/3149 ; LR 1.0000 ; Throughput 3174/1129/2044 total/src/targ tokens/sec ; PPL 18.04 ; Free mem 2075525120	
+Epoch 8 ; Batch 1500/3149 ; LR 1.0000 ; Throughput 3174/1129/2045 total/src/targ tokens/sec ; PPL 18.05 ; Free mem 2074476544	
+Epoch 8 ; Batch 1550/3149 ; LR 1.0000 ; Throughput 3176/1130/2045 total/src/targ tokens/sec ; PPL 18.10 ; Free mem 2073427968	
+Epoch 8 ; Batch 1600/3149 ; LR 1.0000 ; Throughput 3173/1127/2046 total/src/targ tokens/sec ; PPL 18.10 ; Free mem 2076573696	
+Epoch 8 ; Batch 1650/3149 ; LR 1.0000 ; Throughput 3175/1128/2046 total/src/targ tokens/sec ; PPL 18.12 ; Free mem 2075525120	
+Epoch 8 ; Batch 1700/3149 ; LR 1.0000 ; Throughput 3172/1127/2045 total/src/targ tokens/sec ; PPL 18.14 ; Free mem 2074476544	
+Epoch 8 ; Batch 1750/3149 ; LR 1.0000 ; Throughput 3171/1126/2045 total/src/targ tokens/sec ; PPL 18.14 ; Free mem 2076573696	
+Epoch 8 ; Batch 1800/3149 ; LR 1.0000 ; Throughput 3173/1127/2045 total/src/targ tokens/sec ; PPL 18.18 ; Free mem 2076573696	
+Epoch 8 ; Batch 1850/3149 ; LR 1.0000 ; Throughput 3174/1128/2045 total/src/targ tokens/sec ; PPL 18.18 ; Free mem 2073427968	
+Epoch 8 ; Batch 1900/3149 ; LR 1.0000 ; Throughput 3173/1128/2044 total/src/targ tokens/sec ; PPL 18.22 ; Free mem 2075525120	
+Epoch 8 ; Batch 1950/3149 ; LR 1.0000 ; Throughput 3172/1127/2045 total/src/targ tokens/sec ; PPL 18.24 ; Free mem 2075525120	
+Epoch 8 ; Batch 2000/3149 ; LR 1.0000 ; Throughput 3173/1127/2045 total/src/targ tokens/sec ; PPL 18.24 ; Free mem 2074476544	
+Epoch 8 ; Batch 2050/3149 ; LR 1.0000 ; Throughput 3171/1125/2045 total/src/targ tokens/sec ; PPL 18.25 ; Free mem 2077622272	
+Epoch 8 ; Batch 2100/3149 ; LR 1.0000 ; Throughput 3173/1126/2046 total/src/targ tokens/sec ; PPL 18.26 ; Free mem 2076573696	
+Epoch 8 ; Batch 2150/3149 ; LR 1.0000 ; Throughput 3172/1126/2046 total/src/targ tokens/sec ; PPL 18.25 ; Free mem 2074476544	
+Epoch 8 ; Batch 2200/3149 ; LR 1.0000 ; Throughput 3172/1126/2046 total/src/targ tokens/sec ; PPL 18.23 ; Free mem 2073427968	
+Epoch 8 ; Batch 2250/3149 ; LR 1.0000 ; Throughput 3172/1125/2046 total/src/targ tokens/sec ; PPL 18.24 ; Free mem 2074476544	
+Epoch 8 ; Batch 2300/3149 ; LR 1.0000 ; Throughput 3172/1125/2046 total/src/targ tokens/sec ; PPL 18.26 ; Free mem 2074476544	
+Epoch 8 ; Batch 2350/3149 ; LR 1.0000 ; Throughput 3171/1124/2046 total/src/targ tokens/sec ; PPL 18.27 ; Free mem 2073427968	
+Epoch 8 ; Batch 2400/3149 ; LR 1.0000 ; Throughput 3171/1124/2046 total/src/targ tokens/sec ; PPL 18.27 ; Free mem 2074476544	
+Epoch 8 ; Batch 2450/3149 ; LR 1.0000 ; Throughput 3172/1124/2047 total/src/targ tokens/sec ; PPL 18.27 ; Free mem 2074476544	
+Epoch 8 ; Batch 2500/3149 ; LR 1.0000 ; Throughput 3171/1124/2047 total/src/targ tokens/sec ; PPL 18.27 ; Free mem 2073427968	
+Epoch 8 ; Batch 2550/3149 ; LR 1.0000 ; Throughput 3169/1124/2045 total/src/targ tokens/sec ; PPL 18.29 ; Free mem 2076573696	
+Epoch 8 ; Batch 2600/3149 ; LR 1.0000 ; Throughput 3169/1123/2046 total/src/targ tokens/sec ; PPL 18.30 ; Free mem 2076573696	
+Epoch 8 ; Batch 2650/3149 ; LR 1.0000 ; Throughput 3170/1124/2045 total/src/targ tokens/sec ; PPL 18.29 ; Free mem 2074476544	
+Epoch 8 ; Batch 2700/3149 ; LR 1.0000 ; Throughput 3169/1124/2044 total/src/targ tokens/sec ; PPL 18.30 ; Free mem 2075525120	
+Epoch 8 ; Batch 2750/3149 ; LR 1.0000 ; Throughput 3170/1124/2045 total/src/targ tokens/sec ; PPL 18.30 ; Free mem 2075525120	
+Epoch 8 ; Batch 2800/3149 ; LR 1.0000 ; Throughput 3170/1124/2045 total/src/targ tokens/sec ; PPL 18.32 ; Free mem 2074476544	
+Epoch 8 ; Batch 2850/3149 ; LR 1.0000 ; Throughput 3170/1124/2046 total/src/targ tokens/sec ; PPL 18.31 ; Free mem 2073427968	
+Epoch 8 ; Batch 2900/3149 ; LR 1.0000 ; Throughput 3170/1123/2046 total/src/targ tokens/sec ; PPL 18.32 ; Free mem 2075525120	
+Epoch 8 ; Batch 2950/3149 ; LR 1.0000 ; Throughput 3169/1123/2046 total/src/targ tokens/sec ; PPL 18.33 ; Free mem 2074476544	
+Epoch 8 ; Batch 3000/3149 ; LR 1.0000 ; Throughput 3170/1123/2047 total/src/targ tokens/sec ; PPL 18.34 ; Free mem 2073427968	
+Epoch 8 ; Batch 3050/3149 ; LR 1.0000 ; Throughput 3169/1122/2047 total/src/targ tokens/sec ; PPL 18.35 ; Free mem 2076573696	
+Epoch 8 ; Batch 3100/3149 ; LR 1.0000 ; Throughput 3170/1123/2047 total/src/targ tokens/sec ; PPL 18.36 ; Free mem 2076573696	
+Validation PPL: 29.53171699102	
+Saving checkpoint to demo-model_epoch8_29.53.t7...	
