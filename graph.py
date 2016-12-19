@@ -32,8 +32,12 @@ for l in get_lines():
         print("Epoch")
     # Epoch 1 ; Batch 50/183 ; LR 1.0000 ; Throughput 1410/518/892 total/src/targ tokens/sec ; PPL 110737.21 ; Free mem 2447245312
         epoch, batch, lr, speed, ppl, mem = q.split(";")
+	
         ppl = float(ppl.split()[1])
         epoch = float(epoch.split()[1])
+
+	# Ignore first two epochs (too noisy)
+	if epoch <= 2.0: continue
         batch_term = batch.split()[1].split("/")
         batch = float(batch_term[0]) / float(batch_term[1])
         ppls.append(ppl)

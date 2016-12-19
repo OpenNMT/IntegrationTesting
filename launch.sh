@@ -1,4 +1,5 @@
 # Command to login to ec2 and start job.
+cd /home/srush/Projects/IntegrationTesting
 BOX=i-73ad3de6
 KEY=../viz.pem
 aws ec2 start-instances --instance-ids $BOX --region us-west-2
