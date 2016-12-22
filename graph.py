@@ -37,7 +37,7 @@ for l in get_lines():
         epoch = float(epoch.split()[1])
 
 	# Ignore first two epochs (too noisy)
-	if epoch <= 2.0: continue
+	#if epoch <= 2.0: continue
         batch_term = batch.split()[1].split("/")
         batch = float(batch_term[0]) / float(batch_term[1])
         ppls.append(ppl)
